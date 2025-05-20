@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+
+# Exemplo de uso:
+distancia = float(input("Informe a distância percorrida (km): "))
+litros = float(input("Informe a quantidade de combustível consumido (litros): "))
+
+consumo_medio = (distancia/litros)
+
+print(f"O consumo foi de km/litro :{consumo_medio}")
+
+('-----------------------------------------')
+
+if consumo_medio < 8:
+    print("Alto consumo 🚨")
+elif consumo_medio <= 12:
+    print("Consumo moderado ⚠️")
+else:
+    print("Econômico! 🚗💨")
